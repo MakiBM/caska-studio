@@ -68,4 +68,38 @@
     font-size: 22rem;
     color: var(--color-background-2);
   }
+
+  @media (max-width: 1024px) {
+    .cta__container {
+      max-width: clamp(320px, calc(100% - 128rem), calc(600px - 128rem));
+      margin: 64rem auto;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .cta__content {
+      gap: 64px;
+      padding: 36px 24px;
+      border-radius: 24px;
+    }
+
+    .cta__title {
+      font-size: 24px;
+    }
+
+    .cta__text {
+      font-size: 16px;
+    }
+
+    .cta__image {
+      display: none;
+    }
+
+    .cta__button {
+      font-size: 18px;
+      height: 50px;
+      border-radius: 999px;
+    }
+  }
 </style>
