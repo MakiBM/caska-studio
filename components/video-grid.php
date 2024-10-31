@@ -40,9 +40,9 @@
 
   .video-grid__content {
     order: 2;
-    width: calc((6 / 12 * 100%) - 60px);
+    width: calc(6 / 12 * 100% - 40px);
     margin-left: 60px;
-    margin-right: calc((-1 / 12 * 100%) - 80px);
+    margin-right: calc(-1 / 12 * 100% - 60px);
     position: relative;
     top: -240px;
     z-index: 1;
@@ -50,7 +50,7 @@
 
   .video-grid__video.--video-2 {
     order: 3;
-    width: calc(7 / 12 * 100%);
+    width: calc(7 / 12 * 100% - 40px);
   }
   /* End of grid positioning */
 
