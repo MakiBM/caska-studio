@@ -30,18 +30,18 @@
 
 <style>
   .tag-cloud {
-    margin-top: 120px;
+    margin-top: 120rem;
     overflow: hidden;
   }
 
   .tag-cloud__container {
     width: var(--width-container);
-    margin: 40px auto;
-    padding: 0 40px;
+    margin: 40rem auto;
+    padding: 0 40rem;
   }
 
   .tag-cloud__bg-text {
-    font-size: 330px;
+    font-size: 330rem;
     font-family: var(--font-fatface);
     line-height: 1.2;
     text-transform: uppercase;
@@ -53,9 +53,9 @@
   .tag-cloud__grid {
     position: relative;
     z-index: 1;
-    margin-top: -160px;
+    margin-top: -160rem;
     display: grid;
-    gap: 40px;
+    gap: 40rem;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 3fr 1fr;
     grid-template-areas:
@@ -71,50 +71,50 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 80px 100px;
-    border-radius: 36px;
+    padding: 80rem 100rem;
+    border-radius: 36rem;
     background-color: rgba(20,20,20, 0.02);
-    border: 1px solid rgba(230,230,230, 0.1);
-    backdrop-filter: blur(10px);
+    border: 1rem solid rgba(230,230,230, 0.1);
+    backdrop-filter: blur(10rem);
   }
 
   .tag-cloud__title {
     font-family: var(--font-libre);
-    font-size: 48px;
+    font-size: 48rem;
     line-height: 1.2;
     color: var(--color-foreground-1);
   }
 
   .tag-cloud__text {
-    font-size: 22px;
+    font-size: 22rem;
     color: var(--color-foreground-2);
   }
 
   .tag-cloud__tags {
     position: relative;
-    padding-top: 80px;
-    padding-left: 100px;
+    padding-top: 80rem;
+    padding-left: 100rem;
   }
 
   .tag-cloud__pointer {
     position: absolute;
-    top: 92px;
-    left: 20px;
+    top: 92rem;
+    left: 20rem;
   }
 
   .tag-cloud__list {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 16rem;
   }
 
   .tag-cloud__item {
-    border-radius: 999px;
-    padding: 10px 24px;
+    border-radius: 999rem;
+    padding: 10rem 24rem;
     background-color: rgba(101,132,194, 0.2);
-    font-size: 24px;
+    font-size: 24rem;
     color: var(--color-foreground-1);
-    border: 1px solid rgba(230,230,230, 0.1);
+    border: 1rem solid rgba(230,230,230, 0.1);
     width: fit-content;
   }
 </style>

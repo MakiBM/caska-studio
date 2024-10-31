@@ -24,27 +24,27 @@
 
 <style>
   .logo-wall {
-    margin-top: 190px;
+    margin-top: 190rem;
   }
 
   .logo-wall__container {
     width: var(--width-container);
-    margin: 40px auto;
-    padding: 0 40px;
+    margin: 40rem auto;
+    padding: 0 40rem;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    gap: 40px;
+    gap: 40rem;
   }
 
   .logo-wall__logo-list {
     grid-column: span 7;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    padding: 16px 40px;
+    gap: 20rem;
+    padding: 16rem 40rem;
     justify-content: center;
     align-items: center;
-    border-radius: 36px;
+    border-radius: 36rem;
     background-color: #161614;
   }
 
@@ -54,27 +54,27 @@
 
   .logo-wall__content {
     grid-column: span 5;
-    margin-left: calc(1 / 5 * 100% + 40px * 1 / 5);
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-left: calc(1 / 5 * 100% + 40rem * 1 / 5);
+    margin-top: 100rem;
+    margin-bottom: 100rem;
     display: flex;
     flex-direction: column;
   }
 
   .logo-wall__title {
     font-family: var(--font-libre);
-    font-size: 48px;
+    font-size: 48rem;
     line-height: 1.2;
     color: var(--color-foreground-1);
   }
 
   .logo-wall__text {
     margin-top: auto;
-    font-size: 22px;
+    font-size: 22rem;
     color: var(--color-foreground-2);
 
     p + p {
-      margin-top: 36px;
+      margin-top: 36rem;
     }
 
     strong {
@@ -84,14 +84,14 @@
   }
 
   .logo-wall__button {
-    margin-top: 94px;
-    margin-bottom: 24px;
-    padding: 28px 64px;
+    margin-top: 94rem;
+    margin-bottom: 24rem;
+    padding: 28rem 64rem;
     width: fit-content;
-    border-radius: 999px;
+    border-radius: 999rem;
     background-color: var(--color-accent);
     color: var(--color-background-1);
     text-align: center;
-    font-size: 24px;
+    font-size: 24rem;
   }
 </style>

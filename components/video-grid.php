@@ -20,16 +20,16 @@
 
 <style>
   .video-grid {
-    margin-top: 250px;
+    margin-top: 250rem;
   }
 
   .video-grid__container {
     width: var(--width-container);
-    margin: 40px auto;
-    padding: 0 40px;
+    margin: 40rem auto;
+    padding: 0 40rem;
     display: flex;
     flex-wrap: wrap;
-    gap: 80px;
+    gap: 80rem;
   }
 
   /* Grid positioning */
@@ -40,23 +40,23 @@
 
   .video-grid__content {
     order: 2;
-    width: calc(6 / 12 * 100% - 40px);
-    margin-left: 60px;
-    margin-right: calc(-1 / 12 * 100% - 60px);
+    width: calc(6 / 12 * 100% - 40rem);
+    margin-left: 60rem;
+    margin-right: calc(-1 / 12 * 100% - 60rem);
     position: relative;
-    top: -240px;
+    top: -240rem;
     z-index: 1;
   }
 
   .video-grid__video.--video-2 {
     order: 3;
-    width: calc(7 / 12 * 100% - 40px);
+    width: calc(7 / 12 * 100% - 40rem);
   }
   /* End of grid positioning */
 
   .video-grid__video {
     position: relative;
-    border-radius: 36px;
+    border-radius: 36rem;
     overflow: hidden;
   }
 
@@ -77,26 +77,26 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 80px 100px;
-    border-radius: 36px;
+    padding: 80rem 100rem;
+    border-radius: 36rem;
     background-color: rgba(20,20,20, 0.02);
-    border: 1px solid rgba(230,230,230, 0.1);
-    backdrop-filter: blur(10px);
+    border: 1rem solid rgba(230,230,230, 0.1);
+    backdrop-filter: blur(10rem);
   }
 
   .video-grid__title {
     font-family: var(--font-libre);
-    font-size: 48px;
+    font-size: 48rem;
     line-height: 1.2;
     color: var(--color-foreground-1);
   }
 
   .video-grid__text {
-    font-size: 22px;
+    font-size: 22rem;
     color: var(--color-foreground-2);
 
     p + p {
-      margin-top: 36px;
+      margin-top: 36rem;
     }
   }
 </style>

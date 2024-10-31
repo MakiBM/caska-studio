@@ -11,7 +11,7 @@
   --color-foreground-2: #A4A3A3;
   --color-accent: #D9DB81;
 
-  --width-container: clamp(320px, 100%, 1690px);
+  --width-container: clamp(320rem, 100%, 1690rem);
 }
 
 /* Box sizing */
@@ -88,11 +88,6 @@ textarea:not([rows]) {
   min-height: 10em;
 }
 
-/* Remove automatic font size adjustments in iOS */
-html {
-  -webkit-text-size-adjust: 100%;
-}
-
 /* Improve text rendering */
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
@@ -112,6 +107,15 @@ html {
 /* -webkit-tap-highlight-color: transparent; */
 
 /* Typography */
+html {
+  -webkit-text-size-adjust: 100%; /* Remove automatic font size adjustments in iOS */
+  font-size: calc(1 / 1768 * 100vw); /* Set responsive base font size */
+}
+
+@media (min-width: 1768px) {
+  /* html { font-size: 1px; } */
+}
+
 body {
   font-family: var(--font-default);
   text-rendering: optimizeSpeed;

@@ -17,18 +17,18 @@
 
 <style>
   .contact {
-    margin-top: 240px;
+    margin-top: 240rem;
   }
 
   .contact__container {
     position: relative;
     width: var(--width-container);
-    margin: 40px auto;
-    padding: 0 40px;
+    margin: 40rem auto;
+    padding: 0 40rem;
   }
 
   .contact__image {
-    border-radius: 36px;
+    border-radius: 36rem;
     overflow: hidden;
   }
 
@@ -39,25 +39,25 @@
     display: flex;
     flex-direction: column;
     height: 100%;
-    padding: 150px 200px;
+    padding: 150rem 200rem;
   }
 
   .contact__title {
     text-transform: uppercase;
-    font-size: 17px;
+    font-size: 17rem;
     font-weight: 600;
     letter-spacing: 0.1em;
   }
 
   .contact__links {
     margin-top: auto;
-    margin-bottom: 36px;
-    font-size: 48px;
+    margin-bottom: 36rem;
+    font-size: 48rem;
     font-family: var(--font-libre);
   }
 
   .contact__address {
-    font-size: 24px;
+    font-size: 24rem;
     font-style: normal;
   }
 </style>
