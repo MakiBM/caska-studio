@@ -14,9 +14,6 @@
 </section>
 
 <style>
-  .cta {
-  }
-
   .cta__container {
     position: relative;
     width: var(--width-container);
