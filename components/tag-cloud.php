@@ -30,6 +30,7 @@
 
 <style>
   .tag-cloud {
+    margin-top: 120px;
     overflow: hidden;
   }
 
