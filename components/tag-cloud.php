@@ -121,6 +121,7 @@
   }
 
   @media (max-width: 1024px) {
+    
     .tag-cloud {
       margin-top: 0;
     }
