@@ -1,7 +1,11 @@
 <section class="contact">
   <div class="contact__container">
     <div class="contact__image">
-      <img src="/images/contact.jpg" alt="Contact">
+      <picture>
+        <source media="(max-width: 1024px)" srcset="images/contact-mobile.jpg">
+        <source srcset="images/contact.jpg">
+        <img src="images/contact.jpg" alt="contact image">
+      </picture>
     </div>
     <div class="contact__content">
       <div class="contact__title">Caska Studio</div>
@@ -59,5 +63,70 @@
   .contact__address {
     font-size: 24rem;
     font-style: normal;
+  }
+
+  @media (max-width: 1024px) {
+
+    .contact {
+      margin-top: 120px;
+    }
+
+    .contact__container {
+      max-width: clamp(320px, calc(100% - 128rem), calc(600px - 128rem));
+      max-height: calc(100vh - 128rem);
+      margin: 64rem auto;
+      padding: 0;
+      border-radius: 24px;
+      overflow: hidden;
+    }
+
+    .contact__image {
+      border-radius: 24px;
+    }
+
+    .contact__content {
+      position: static;
+    }
+
+    .contact__title {
+      position: absolute;
+      left: 30px;
+      top: 10%;
+      font-size: 16px;
+    }
+
+    .contact__links {
+      position: absolute;
+      left: 30px;
+      top: 50%;
+      margin-bottom: 1em;
+      font-size: 26px;
+    }
+    
+    .contact__address {
+      position: absolute;
+      left: 30px;
+      top: calc(50% + 140px);
+      font-size: 18px;
+      max-width: 160px;
+    }
+  }
+
+
+  @media (max-width: 640px) {
+
+    .contact__title {
+      font-size: calc(1768 / 640 * 16rem);
+    }
+
+    .contact__links {
+      font-size: calc(1768 / 640 * 26rem);
+    }
+
+    .contact__address {
+      top: calc(50% + 1768 / 640 * 140rem);
+      font-size: calc(1768 / 640 * 18rem);
+      max-width: calc(1768 / 640 * 160rem);
+    }
   }
 </style>

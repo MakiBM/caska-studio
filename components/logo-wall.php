@@ -112,9 +112,6 @@
 
     .logo-wall__logo-list {
       order: 2;
-      /* grid-template-columns: repeat(3, 1fr); */
-      /* gap: 20rem; */
-      /* padding: 16rem 40rem; */
       border-radius: 24px;
     }
 
