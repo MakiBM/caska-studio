@@ -34,6 +34,12 @@
   .contact__image {
     border-radius: 36rem;
     overflow: hidden;
+    
+    img {
+      width: 100%;
+      max-height: calc(100vh - 80rem);
+      object-fit: cover;
+    }
   }
 
   .contact__content {
