@@ -72,7 +72,7 @@
     }
 
     .contact__container {
-      max-width: clamp(320px, calc(100% - 128rem), calc(600px - 128rem));
+      max-width: clamp(320px, calc(100% - 128rem), calc(800px - 128rem));
       max-height: calc(100vh - 128rem);
       margin: 64rem auto;
       padding: 0;
@@ -86,18 +86,19 @@
 
     .contact__content {
       position: static;
+      padding: 0;
     }
 
     .contact__title {
       position: absolute;
-      left: 30px;
+      left: 100rem;
       top: 10%;
       font-size: 16px;
     }
 
     .contact__links {
       position: absolute;
-      left: 30px;
+      left: 100rem;
       top: 50%;
       margin-bottom: 1em;
       font-size: 26px;
@@ -105,7 +106,7 @@
     
     .contact__address {
       position: absolute;
-      left: 30px;
+      left: 100rem;
       top: calc(50% + 140px);
       font-size: 18px;
       max-width: 160px;

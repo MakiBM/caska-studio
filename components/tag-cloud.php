@@ -121,13 +121,13 @@
   }
 
   @media (max-width: 1024px) {
-    
+
     .tag-cloud {
       margin-top: 0;
     }
 
     .tag-cloud__container {
-      max-width: clamp(320px, calc(100% - 128rem), calc(600px - 128rem));
+      max-width: clamp(320px, calc(100% - 128rem), calc(800px - 128rem));
       margin: 64rem auto;
       padding: 0;
     }

@@ -162,7 +162,7 @@
   @media (max-width: 1024px) {
 
     .testimonials__container {
-      max-width: clamp(320px, calc(100% - 128rem), calc(600px - 128rem));
+      max-width: clamp(320px, calc(100% - 128rem), calc(800px - 128rem));
       margin: 64rem auto;
       padding: 0;
     }
@@ -187,9 +187,9 @@
     .testimonials__item {
       flex-shrink: 0;
 
-      &:nth-of-type(1) { width: clamp(280px, 70vw, 400px); }
-      &:nth-of-type(2) { width: clamp(280px, 70vw, 400px); }
-      &:nth-of-type(3) { width: clamp(280px, 70vw, 400px); }
+      &:nth-of-type(1) { width: 280px; }
+      &:nth-of-type(2) { width: 280px; }
+      &:nth-of-type(3) { width: 280px; }
 
       &:nth-of-type(1) {
         padding-right: 0;
