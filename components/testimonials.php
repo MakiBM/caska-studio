@@ -4,7 +4,7 @@
     <h2 class="testimonials__title">Wybrane realizacje</h2>
   </div>
   <div class="testimonials__scroll">
-  <div class="testimonials__container">
+    <div class="testimonials__container">
       <ul class="testimonials__list">
         <li class="testimonials__item">
         <div class="testimonials__image">
