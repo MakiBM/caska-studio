@@ -88,10 +88,61 @@
     margin-bottom: 24rem;
     padding: 28rem 64rem;
     width: fit-content;
-    border-radius: 999rem;
+    border-radius: 999px;
     background-color: var(--color-accent);
     color: var(--color-background-1);
     text-align: center;
     font-size: 24rem;
+  }
+
+  @media (max-width: 1024px) {
+
+    .logo-wall {
+      margin-top: 80px;
+    }
+
+    .logo-wall__container {
+      max-width: clamp(320px, calc(100% - 128rem), calc(600px - 128rem));
+      margin: 64rem auto;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+
+    .logo-wall__logo-list {
+      order: 2;
+      /* grid-template-columns: repeat(3, 1fr); */
+      /* gap: 20rem; */
+      /* padding: 16rem 40rem; */
+      border-radius: 24px;
+    }
+
+    .logo-wall__content {
+      margin-left: 0;
+      margin-top: 0;
+      margin-bottom: 0;
+      padding: 36px 24px;
+    }
+
+    .logo-wall__title {
+      font-size: 24px;
+      margin-bottom: 48px;
+    }
+
+    .logo-wall__text {
+      font-size: 16px;
+
+      p + p {
+        margin-top: 24px;
+      }
+    }
+
+    .logo-wall__button {
+      margin-top: 64px;
+      margin-bottom: 48px;
+      padding: 12px 32px;
+      font-size: 16px;
+    }
   }
 </style>

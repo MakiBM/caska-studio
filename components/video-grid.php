@@ -136,8 +136,8 @@
     }
 
     .video-grid__play {
-      width: 64rem;
-      height: 64rem;
+      width: 32px;
+      height: 32px;
     }
 
     .video-grid__content {
